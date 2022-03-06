@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_popup": "data/popup/index.html"
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "description": "Press the action button"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://add0n.com/screenshot.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "20": "data/icons/20.png",
+      "24": "data/icons/24.png",
+      "256": "data/icons/256.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "512": "data/icons/512.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0tQ0tNLTdsSy3g5KA9HkGhqW4wjLiChn9f79RfEk99HqyAe2EtxmUtOUemXUcfyv+YnkMPnMMfFEa1v/2YGEkHbm6qbjAbsMc9mg6dGXAYt4sXOZy0SqSSSzozI9w+tsTVFty7ho9Cx+ujotDCLZsBsiiGcUyeOs+aeMKn52jMJ0pOSjKlApfMhAsHTav+QVffp1J5QsxiYJEYuQTTGYZYoJ1cSxpnFZTbVCN+7olicGyYloOa0wQUvWYKNTHT4aqAztRW4XIZUGhZC7edb3pk5MDPA5GvrK2WHcuWwbgmwNCWGRqWGXei5uceUrs4qhAkd/AbqRHsgkO6S6cNFJ6QIDAQAB",
+   "manifest_version": 3,
+   "name": "Easy Screenshot - a Web Clipper",
+   "offline_enabled": true,
+   "options_ui": {
+      "page": "data/options/index.html"
+   },
+   "permissions": [ "contextMenus", "activeTab", "scripting", "downloads", "notifications", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.2"
+}
